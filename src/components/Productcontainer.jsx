@@ -1,0 +1,21 @@
+import React from 'react'
+
+import "../styles/Productcontainer.css"
+
+function Productcontainer(props) {
+    const title=props.title
+    const imge=props.imge
+    const dias=props.dias
+    const descuento=props.descuento
+  return (
+    <div className='product-container'>
+        <h1>{title}</h1>
+            <img src={imge} height="250"/>
+            <h3>{dias}</h3>
+            <h1>{descuento}</h1>
+            <button className="button-add" onClick="add(product, 50)">Ver mas</button>
+    </div>
+  )
+}
+
+export {Productcontainer}

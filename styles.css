@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+   background: #9CECFB; 
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  
+background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.encabezado {
+ 
+  background: url(./image/WhatsApp\ Image\ 2022-05-18\ at\ 10.21.18\ PM\ \(1\).jpeg);
+    border: 10px solid white;
+    display: flex;
+}
+
+.encabezado h1 {
+    margin: 20px;
+    position: relative;
+    text-align: justify;
+}
+.pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 #8e03f8fb;
+    background: #D3CCE3;  
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(2, 42, 240, 0.2);
+  }
+
+.product-container img {
+    width: 270px;
+}
+
+.product-container h1 {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background: #2193b0;  
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+background: linear-gradient(to right, #6dd5ed, #2193b0); 
+
+    color: white;
+    border: 2px solid white; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background: #8E2DE2;  
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+ 
+color: #E9E4F0;
+}

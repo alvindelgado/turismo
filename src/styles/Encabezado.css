@@ -1,0 +1,48 @@
+
+ .Tarjeta1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40% 60%;
+    align-items: end;
+    background-image: url('../images/fondoopng.png');
+    background-position: left;
+}
+
+.Tarjeta1 img:first-child {
+    width: 100%;
+    grid-row: 1/3;
+}
+
+.logo {
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+}
+
+.barras {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.barras img {
+    max-width: 50%;
+}
+
+.span span {
+    color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size:21px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.span {
+
+}
+
+.ciudad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

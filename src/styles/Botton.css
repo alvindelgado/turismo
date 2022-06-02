@@ -1,0 +1,73 @@
+:root{
+    
+}
+
+.Prom{
+    background-color: rgb(163, 181, 221);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 30% 50%;
+    margin-top:60px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(33, 20, 221);
+}
+.travel {
+    border-radius: 10%;
+    width: 65%;
+    margin-left: 55%;
+    padding-top: 1px;
+}
+.primertitulo{
+    font-size: 180%;
+    vertical-align: text-top;
+    display: flex;
+    padding: 55px 18px;
+}
+.Des{
+    background-color: rgb(163, 181, 221);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 30% 50%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(33, 20, 221);
+}
+.destino{
+    border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    margin-left: 45%;
+    padding-top: 30px;
+}
+.ti2{
+    font-size: 180%;
+    vertical-align: text-top;
+    display: flex;
+    padding: 55px 18px;
+}
+.Cup{
+    background-color: rgb(163, 181, 221);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 30% 50%;
+    border: 2px solid rgb(33, 20, 221);
+}
+.cupones {
+    border-radius: 20%;
+    width: 65%;
+    margin-left: 55%;
+    padding-top: 20px;
+}
+.ti3{
+    font-size: 180%;
+    vertical-align: text-top;
+    display: flex;
+    padding: 55px 18px;
+}

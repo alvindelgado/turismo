@@ -1,7 +1,7 @@
 import yungas from "../assets/CMYungas.jpg"
-import copacabana from "../assets/Copacabana.png"
+import copacabana from "../assets/copa.png"
 import dragon from "../assets/Dragon Dormido.jpg"
-import illimani from "../assets/Illimani.jpg"
+import illimani from "../assets/illimani1.jpg"
 import puerta from "../assets/Puerta del sol.jpg"
 import luna from "../assets/Valle De La Luna.jpg"
 const tarjetas = []

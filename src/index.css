@@ -47,3 +47,12 @@ nav li a {
     color: grey;
     transition: all .3s ease-out;
 }
+
+@media (min-width: 1024px) {
+    .main-layout {
+        grid-template-rows: 200px 50px;
+    }
+    nav {
+        margin-top: 6px;
+    }
+}

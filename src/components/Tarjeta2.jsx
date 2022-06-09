@@ -1,4 +1,6 @@
 import React from 'react'
+import{Link} from "react-router-dom"
+
 import fondo from '../assets/fondo.png'
 import '../styles/Tarjeta2.css'
 
@@ -12,11 +14,14 @@ function Tarjeta2() {
             </div>
             <div className='cent'>
             <p>Vive experencias inolvidables</p>
-            </div>
-        <button>INICIO</button>
+            </div> 
+            <Link to="/login"> 
+               <button>INICIAR SESION</button>
+          </Link>
         </div>
 
     </div>
+    
   )
 }
 

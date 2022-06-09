@@ -1,0 +1,14 @@
+.Card_section{
+    
+    border-bottom: 1px solid slateblue;
+    width: 90%;
+    margin: 0% auto;
+
+}
+.Card_section p:first-child{
+    font-weight: bold;
+}
+.Card_section p:nth-child(2){
+    text-align: justify;
+}
+

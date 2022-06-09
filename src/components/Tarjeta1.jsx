@@ -14,10 +14,10 @@ function Tarjeta1() {
       <span>TOURS IDA Y VUELTA</span>
       </div>
       <div className='barras'>
-      <img src={barras} alt="barras" />
+       <img  src={barras} alt="barras" />
       </div>
       <div className='ciudad'>
-      <img src={Imagen1} alt="imagen1" />
+      <img  src={Imagen1} alt="imagen1" />
       </div>   
     </div>
   )

@@ -1,0 +1,23 @@
+.Card {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 6px 5px 24px #666666;
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+@media (min-width: 1024px) {
+    .Card {
+        width: 50%;
+    }
+    .Card_footer p {
+        color: black;
+    }
+    .Card_section p {
+        color: black;
+    }
+}

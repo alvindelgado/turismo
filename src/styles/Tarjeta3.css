@@ -12,3 +12,9 @@
     color: white;
     font-family: 'Comic Neue', cursive;
 }
+
+@media (min-width: 1024px) {
+    .Tarjeta3 {
+        top: 20px;
+    }
+}

@@ -1,0 +1,8 @@
+.title-container {
+    color: rgb(217, 93, 242);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

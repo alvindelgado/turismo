@@ -70,3 +70,21 @@
     background-image: linear-gradient(to bottom, #2079b0, #e067fe);
     text-decoration: none;
 }
+
+@media (min-width: 1024px) {
+    .Tarjeta2 img {
+        height: 100%;
+    }
+    .contenido {
+        grid-template-rows: 40% 40% 10%;
+    }
+    .contenido span:first-child {
+        font-size: 70px;
+    }
+    .cent p {
+        font-size: 50px;
+    }
+    .Tarjeta2 button {
+        padding: 20px 60px;
+    }
+}

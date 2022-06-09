@@ -10,10 +10,10 @@ function Productcontainer(props) {
   return (
     <div className='product-container'>
         <h1>{title}</h1>
-            <img src={imge} height="250"/>
+            <img src={imge} />
             <h3>{dias}</h3>
             <h1>{descuento}</h1>
-            <button className="button-add" onClick="add(product, 50)">Ver mas</button>
+            
     </div>
   )
 }

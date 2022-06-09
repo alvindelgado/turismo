@@ -19,10 +19,9 @@
     align-items: center;
 }
 
-.barras {
-    width: 100%;
-    display: grid;
-    justify-items: center;
+.carro {
+    position: relative;
+    top: 40px;
 }
 
 .barras img {
@@ -56,5 +55,9 @@
     }
     .span span {
         font-size: 50px;
+    }
+    .carro {
+        position: relative;
+        top: 120px;
     }
 }

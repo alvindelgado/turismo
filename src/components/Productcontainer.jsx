@@ -10,7 +10,7 @@ function Productcontainer(props) {
   return (
     <div className='product-container'>
         <h1>{title}</h1>
-            <img src={imge} />
+            <img src={imge} alt="img" />
             <h3>{dias}</h3>
             <h1>{descuento}</h1>
             

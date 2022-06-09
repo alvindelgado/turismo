@@ -1,14 +1,12 @@
-:root {}
-
 .Prom {
     background-color: rgb(163, 181, 221);
     width: 90%;
     margin: 0 auto;
     border-radius: 10%;
     display: grid;
-    grid-template-rows: 30% 70%;
+    align-items: center;
     grid-template-columns: 30% 50%;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 20px;
     border: 2px solid rgb(33, 20, 221);
 }
@@ -33,7 +31,7 @@
     margin: 0 auto;
     border-radius: 10%;
     display: grid;
-    grid-template-rows: 30% 70%;
+    align-items: center;
     grid-template-columns: 30% 50%;
     margin-bottom: 20px;
     border: 2px solid rgb(33, 20, 221);
@@ -59,7 +57,7 @@
     margin: 0 auto;
     border-radius: 10%;
     display: grid;
-    grid-template-rows: 30% 70%;
+    align-items: center;
     grid-template-columns: 30% 50%;
     border: 2px solid rgb(33, 20, 221);
 }

@@ -10,6 +10,14 @@
     background: linear-gradient(to right, #E9E4F0, #D3CCE3);
 }
 
+.Card_footer p {
+    color: black;
+}
+
+.Card_section p {
+    color: black;
+}
+
 @media (min-width: 1024px) {
     .Card {
         width: 50%;

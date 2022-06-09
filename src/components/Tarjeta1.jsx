@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Tarjeta1.css"
 import logo from '../assets/logo.png'
-import barras from'../assets/barras.png'
+import carro from'../assets/car.png'
 import Imagen1 from '../assets/Imagen1.png'
 
 function Tarjeta1() {
@@ -13,8 +13,8 @@ function Tarjeta1() {
       <div className='span'>
       <span>TOURS IDA Y VUELTA</span>
       </div>
-      <div className='barras'>
-       <img  src={barras} alt="barras" />
+      <div className='carro'>
+       <img  src={carro} alt="barras" />
       </div>
       <div className='ciudad'>
       <img  src={Imagen1} alt="imagen1" />

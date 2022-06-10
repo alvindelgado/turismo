@@ -1,6 +1,13 @@
+.cat1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media(min-width:1024px) {
     .cat1 {
         display: flex;
+        flex-direction: row;
         margin: 20px 20px;
     }
 }

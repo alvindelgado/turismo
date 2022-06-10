@@ -1,5 +1,6 @@
 import React from 'react'
 import GoogleMaps from "simple-react-google-maps"
+import casa from "../assets/and.jpg"
 //-16.52798763742899, -68.08151362289003
 function PMap() {
     return ( 
@@ -18,8 +19,9 @@ function PMap() {
                   ]}
                 />
                 <div className='letras'>
+                    <img src={casa} alt="" />
+                    <p>AV. RAFAEL PABON</p>
                     <p>ESCUELA MILITAR DE INGENIERIA</p>
-                    <p>AULA 105</p>
                 </div>
         </div>
     )

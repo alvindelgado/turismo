@@ -34,13 +34,26 @@ code {
     align-items: center;
 }
 
+.letras img {
+    width: 100%;
+    max-height: 150px;
+}
+
 .letras p {
     font-family: 'Rozha One', serif;
 }
 
+.letras p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.letras p:nth-child(3) {
+    margin-top: 0;
+}
+
 #map {
     width: 320px;
-    height: 540px;
+    height: 200px;
 }
 
 nav {
@@ -82,17 +95,22 @@ nav li a {
         margin-top: 6px;
     }
     #map {
-        margin: 30px auto;
-        width: 1024px;
-        height: 1080px;
+        margin: 0px auto;
+        width: 700px;
+        height: 500px;
         border-radius: 20px;
+        margin-top: 20px;
     }
     .PMap {
-        width: 80%;
+        width: 59%;
         margin: 20px auto;
         border-radius: 20px;
     }
     .letras p {
         font-size: 30px;
+    }
+    .letras img {
+        width: 700px;
+        max-height: 350px;
     }
 }

@@ -15,7 +15,7 @@ function Tarjeta2() {
             <div className='cent'>
             <p>Vive experencias inolvidables</p>
             </div> 
-            <Link to="/login"> 
+            <Link to="/login" style={{ textDecoration:"none"}}> 
                <button>INICIAR SESION</button>
           </Link>
         </div>

@@ -61,7 +61,7 @@ const Login = () => {
         handlechange = { handlechange }
         param = { passwordError }
         />
-        <Link to="/Segunda">
+        <Link to="/Segunda" style={{ textDecoration:"none"}}>
         <button className="ingre" onClick = { handleSubmit } >
         Ingresar </button>
         </Link>

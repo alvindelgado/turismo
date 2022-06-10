@@ -6,8 +6,6 @@ function PMap() {
         <div className='PMap'>
             <GoogleMaps
                 apiKey={"AIzaSyCw43ut53oIhP4ptNu5rF8hqnoo-dZmteE"}
-                
-                className="aaaaa"
                 zoom={17}
                 center={{
                     lat:-16.52798763742899,
@@ -19,6 +17,10 @@ function PMap() {
                    
                   ]}
                 />
+                <div className='letras'>
+                    <p>ESCUELA MILITAR DE INGENIERIA</p>
+                    <p>AULA 105</p>
+                </div>
         </div>
     )
                 

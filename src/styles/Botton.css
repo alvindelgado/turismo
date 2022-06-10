@@ -19,10 +19,11 @@
 }
 
 .primertitulo {
-    font-size: 180%;
+    font-size: 130%;
     vertical-align: text-top;
     display: flex;
     padding: 55px 18px;
+    color: black;
 }
 
 .Des {
@@ -45,10 +46,11 @@
 }
 
 .ti2 {
-    font-size: 180%;
+    font-size: 140%;
     vertical-align: text-top;
     display: flex;
     padding: 55px 18px;
+    color: black;
 }
 
 .Cup {
@@ -70,10 +72,11 @@
 }
 
 .ti3 {
-    font-size: 180%;
+    font-size: 140%;
     vertical-align: text-top;
     display: flex;
     padding: 55px 18px;
+    color: black;
 }
 
 @media (min-width: 1024px) {

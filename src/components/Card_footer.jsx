@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Card_footer.css"
+import{Link}from "react-router-dom"
 function Card_footer(props) {
     const salida=props.salida
     const viaje=props.viaje
@@ -10,7 +11,10 @@ function Card_footer(props) {
         <p>{`Duracion de viaje - ${viaje}`} </p>
         <p>{`Costo - ${costo}`}</p>
         <div className='carta_boton'>
-        <button>RESERVAR VIAJE</button>  
+          <Link to="/pagos" style={{ textDecoration:"none"}}>
+          <button>RESERVAR VIAJE</button>  
+          </Link>
+        
         </div>
         
 
